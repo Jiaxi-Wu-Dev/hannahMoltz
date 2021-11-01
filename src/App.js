@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Window from './components/Window'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Window className="firstWindow" number={"1"}/>
+      <Window id="secondWindow" number={"2"}/>
+      <Window id="thirdWindow" number={"3"}/>
     </div>
   );
 }
