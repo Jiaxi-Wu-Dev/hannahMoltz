@@ -1,9 +1,10 @@
 
 import './App.css';
 import Window from './components/Window'
+import JiaxiHooks from './components/JiaxiHooks'
 
 function App() {
-  
+
   const firstWindowStyles = {
     position:"relative", 
     top:"-60px",
@@ -15,6 +16,7 @@ function App() {
       <Window className="firstWindow" number={"1"} style={firstWindowStyles}/>
       <Window id="secondWindow" number={"2"}/>
       <Window id="thirdWindow" number={"3"}/>
+      <JiaxiHooks />
     </div>
   );
 }
