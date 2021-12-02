@@ -12,6 +12,11 @@ class App extends React.Component {
           number={"1"}
         />
         <Window
+          id="firstWindow"
+          style={{ position: "relative", left: "200px" }}
+          number={"1"}
+        />
+        <Window
           id="secondWindow"
           style={{ position: "relative", left: "100px" }}
           number={"2"}
